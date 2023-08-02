@@ -1,9 +1,9 @@
 import React from "react";
 
 const ItemCard = ({ dish }) => {
-	const { desc, id, img, price, title } = dish;
+	const { desc, id, img, price, title, category } = dish;
 	return (
-		<div className='item' key={id}>
+		<div className='item' key={id} data-test-id={`menu-item-${category}`}>
 			{/* Image */}
 			<div className='item-img'>
 				<img src={img} alt={title} />

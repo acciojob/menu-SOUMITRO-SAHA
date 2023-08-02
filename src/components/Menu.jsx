@@ -27,16 +27,16 @@ const Menu = () => {
 
 			{/* Item List */}
 			<section className='menu'>
-				<li id='filter-btn-0' onClick={(e) => categoryFinder()}>
+				<li id='filter-btn-0' onClick={() => categoryFinder()}>
 					All
 				</li>
-				<li id='filter-btn-1' onClick={(e) => categoryFinder("breakfast")}>
+				<li id='filter-btn-1' onClick={() => categoryFinder("breakfast")}>
 					Breakfast
 				</li>
-				<li id='filter-btn-2' onClick={(e) => categoryFinder("lunch")}>
+				<li id='filter-btn-2' onClick={() => categoryFinder("lunch")}>
 					Lunch
 				</li>
-				<li id='filter-btn-3' onClick={(e) => categoryFinder("shakes")}>
+				<li id='filter-btn-3' onClick={() => categoryFinder("shakes")}>
 					Shakes
 				</li>
 			</section>
